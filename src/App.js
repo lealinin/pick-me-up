@@ -8,13 +8,10 @@ class App extends Component {
     console.log('render method runs')
     return(
       <div>
-        <h1>Hello</h1>
         <RandomQuote />
       </div>
     );
   }
 }
-
-
 
 export default App;
