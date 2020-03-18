@@ -1,5 +1,38 @@
+/* Styles for Quote Container */
+
 .QuoteBox {
   background-color: mediumaquamarine;
   color: white;
-  padding: 10px;
+  padding: 25px;
+  max-width: 30%;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+/* Styles for Pick-Me-Up Button */
+
+.QuoteButton {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border: 2px solid gold;
+  color: gold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.QuoteButton:hover {
+  background-color: gold;
+  color: white;
+  transition: background-color 0.30s ease-out;
+}
+
+.ButtonWrapper {
+  display: flex;
+  justify-content: center;
 }
