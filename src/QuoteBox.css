@@ -33,6 +33,10 @@
   transition: background-color 0.30s ease-out;
 }
 
+.QuoteButton:focus {
+  outline: 0;
+}
+
 .ButtonWrapper {
   display: flex;
   justify-content: center;
